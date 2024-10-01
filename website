@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find the perfect fall designs centered around pumpkins at Your Perfect Pumpkin Patch.">
+    <title>Your Perfect Pumpkin Patch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdf6e3;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #d35400;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e67e22;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('https://example.com/pumpkin-patch.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        .hero h1 {
+            font-size: 4em;
+        }
+
+        .container {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .about, .products, .contact {
+            margin-bottom: 40px;
+        }
+
+        .about p, .contact p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .product-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #d35400;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Perfect Pumpkin Patch</h1>
+        <p>Find your perfect fall pumpkin designs and decor!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#products">Our Products</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to Your Perfect Pumpkin Patch</h1>
+    </section>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>At Your Perfect Pumpkin Patch, we specialize in beautiful fall designs centered around pumpkins. From handcrafted pumpkin decor to seasonal designs perfect for your home, we bring the magic of autumn to you. Whether you're decorating for a party or looking for the perfect gift, our pumpkin-themed designs will warm up your space!</p>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div>
+                    <img src="https://example.com/product1.jpg" alt="Product 1">
+                    <h3>Handcrafted Pumpkin Decor</h3>
+                    <p>$25.00</p>
+                </div>
+                <div>
+                    <img src="https://example.com/product2.jpg" alt="Product 2">
+                    <h3>Pumpkin-Themed Table Settings</h3>
+                    <p>$45.00</p>
+                </div>
+                <div>
+                    <img src="https://example.com/product3.jpg" alt="Product 3">
+                    <h3>Fall Centerpieces with Pumpkins</h3>
+                    <p>$30.00</p>
+                </div>
+                <!-- Add more products here -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Have a question or need help with an order? Reach out to us at <a href="mailto:info@yourperfectpumpkinpatch.com">info@yourperfectpumpkinpatch.com</a> or call us at (123) 456-7890.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Perfect Pumpkin Patch. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
